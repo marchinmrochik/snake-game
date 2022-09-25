@@ -1,0 +1,31 @@
+#snake {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#score {
+    text-align: center;
+    font-size: 140px;
+}
+
+.button-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button-box button {
+    height: 50px;
+    background: green;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.button-box button:hover {
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
